@@ -2,35 +2,91 @@
 layout: default
 title: Technology
 active: technology
+
+technology-note: Leverage the cutting edge technology that powers CrateKube to enjoy robust functionality of containers without the pain of managing the underlying complexity.
+tech-1-head: Docker
+tech-1-body: Simplify the workflow of building and deploying container applications through Docker.
+tech-2-head: Kubernetes
+tech-2-body: Kubernetes orchestrates the containers that make up your application, automating scaling and management of containerized applications.
+tech-3-head: Crate OS Image
+tech-3-body: The Crate OS Image is built for security and performance, and tailored to running containers.
 ---
 
 <section id="docker">
   <div class="container">
     <div class="row mt-4 pb-4">
       <div class="col-md-4">
-        <!-- <img class="w-50" src="/assets/images/docker-logo.png" alt="Docker Logo"/> -->
-        <p class="mx-auto text-center">Logo Here</p>
+        <img
+          class="w-50"
+          src="/assets/images/docker-logo.png"
+          alt="Docker Logo"
+        />
       </div>
       <div class="col-md-8">
-        <h2 class="subSectionHeadblue">Docker</h2>
+        <h2 class="subSectionHeadblue">{{page.tech-1-head}}</h2>
         <p class="pt=2">
-          Overview Intro Summary. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Maecenas ut turpis mauris. Duis porta posuere lectus
-          sed sodales. Nam sit amet condimentum sapien.
+          {{page.tech-1-body}}
         </p>
-        <p class="pt-2">
+        <!-- <p class="pt-2">
           Praesent et bibendum tortor, a bibendum orci. Pellentesque quis
           hendrerit nibh, sed faucibus eros. In hac habitasse platea dictumst.
           Phasellus mi ante, vulputate sit amet quam lobortis, placerat eicitur
           velit. Donec erat justo, hendrerit quis dictum a, accumsan non dolor.
           Nullam ante metus, mattis eu magna nec, convallis suscipit urna
-        </p>
+        </p> -->
       </div>
     </div>
   </div>
 </section>
 
-<section id="rancher">
+<section id="kubernetes">
+  <div class="container">
+    <div class="row mt-4 pb-4">
+      <div class="col-md-8">
+        <h2 class="subSectionHeadblue">{{page.tech-2-head}}</h2>
+        <p class="pt=2">
+          {{page.tech-2-body}}
+        </p>
+        <!-- <p class="pt-2">
+          Praesent et bibendum tortor, a bibendum orci. Pellentesque quis
+          hendrerit nibh, sed faucibus eros. In hac habitasse platea dictumst.
+          Phasellus mi ante, vulputate sit amet quam lobortis, placerat eicitur
+          velit. Donec erat justo, hendrerit quis dictum a, accumsan non dolor.
+          Nullam ante metus, mattis eu magna nec, convallis suscipit urna
+        </p> -->
+      </div>
+      <div class="col-md-4">
+        <img class="w-50" src="/assets/images/k8-logo.png" alt="Docker Logo" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="crateos">
+  <div class="container">
+    <div class="row mt-4 pb-4">
+      <div class="col-md-4">
+        <p>Logo Here</p>
+        <!-- <img class="w-50" src="/assets/images/k8-logo.png" alt="Docker Logo" /> -->
+      </div>
+      <div class="col-md-8">
+        <h2 class="sectionHeadwhite">{{page.tech-3-head}}</h2>
+        <p class="pt=2">
+          {{page.tech-3-body}}
+        </p>
+        <!-- <p class="pt-2">
+          Praesent et bibendum tortor, a bibendum orci. Pellentesque quis
+          hendrerit nibh, sed faucibus eros. In hac habitasse platea dictumst.
+          Phasellus mi ante, vulputate sit amet quam lobortis, placerat eicitur
+          velit. Donec erat justo, hendrerit quis dictum a, accumsan non dolor.
+          Nullam ante metus, mattis eu magna nec, convallis suscipit urna
+        </p> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section id="rancher">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -233,4 +289,4 @@ active: technology
       </div>
     </div>
   </div>
-</section>
+</section> -->

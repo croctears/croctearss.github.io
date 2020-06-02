@@ -2,21 +2,94 @@
 layout: default
 title: Support
 active: support
+
+support-note: Join our active and helpful community to get support on CrateKube.
+support-1-head: Product
+support-1-body: Found a bug? Want to request a feature?
+support-1-link: Open a GitHub issue
+support-2-head: Deployment
+support-2-body: To request help with deploying CrateKube, contact your infrastructure provider.
+support-2-link: AWS Support
+support-3-head: Contributions
+support-3-body: Interested in contributing to CrateKube? Get involved to perfect your craft and be part of something big. We would love for you to join us on our journey!
+support-3-link: Check out our contribution guidelines
 ---
 
-    <section id="overviewSupport">
-        <div class="container">
-            <div class="row mt-4">
-              <div class="col-md-12 col-sm-12 my-auto text-center">
-                <p><span class="font-weight-bold">Overview Intro Summary.</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut
-                    turpis mauris. Duis porta posuere lectus sed sodales. Nam sit amet condimentum sapien.
-                    Maecenas ut turpis mauris. Duis porta posuere lectus sed sodales. Nam sit amet sapien. </p>
-              </div>
-            </div>
-          </div>
-        </section>
-    </section>
-    <section id="slas">
+<section id="overviewSupport">
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col-md-12 col-sm-12 my-auto text-center">
+        <p>{{page.support-note}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="offeringWhite">
+  <div class="container">
+    <div class="row mt-5 mx-auto">
+      <div class="col-md-12">
+        <div class="pt-md-5 text-center">
+          <h2 class="font-weight-bold text-uppercase">
+            {{page.support-1-head}}
+          </h2>
+        </div>
+        <hr style="border: 1px solid#000000;" />
+        <div class="py-md-3 text-center">
+          <p>
+            {{page.support-1-body}}
+          </p>
+          &nbsp;<a href="#"
+            ><span class="link"><i>{{page.support-1-link}}</i></span></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row mt-5 mx-auto">
+      <div class="col-md-12">
+        <div class="pt-md-5 text-center">
+          <h2 class="font-weight-bold text-uppercase">
+            {{page.support-2-head}}
+          </h2>
+        </div>
+        <hr style="border: 1px solid#000000;" />
+        <div class="py-md-3 text-center">
+          <p>
+            {{page.support-2-body}}
+          </p>
+          &nbsp;<a href="https://aws.amazon.com/contact-us/"
+            ><span class="link"><i>{{page.support-2-link}}</i></span></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row mt-5 mx-auto">
+      <div class="col-md-12">
+        <div class="pt-md-5 text-center">
+          <h2 class="font-weight-bold text-uppercase">
+            {{page.support-3-head}}
+          </h2>
+        </div>
+        <hr style="border: 1px solid#000000;" />
+        <div class="py-md-3 text-center">
+          <p>
+            {{page.support-3-body}}
+          </p>
+          &nbsp;<a
+            href="https://github.com/cratekube/cratekube/tree/master/contributing"
+            ><span class="link"><i>{{page.support-3-link}}</i></span></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section id="slas">
       <div class="container">
         <div class="row mt-5">
           <div class="col-md-7">
@@ -140,5 +213,4 @@ active: support
           </div>
         </div>
       </div>
-    </section>
-
+    </section> -->

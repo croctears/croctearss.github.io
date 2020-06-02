@@ -2,6 +2,13 @@
 layout: default
 title: Home
 active: home
+
+welcome-title: CrateKube
+welcome-note: Expand the possibilities of DevOps with CrateKube, an open source Kubernetes platform built with a no-ops mentality. Kubernetes simplifies container management, and we simplify Kubernetes management.
+offerings-note: Enhance and expand your application's functionality by leveraging CrateKube's built-in integrations with third party solutions.
+features-note: Empower your development with out-of-the-box integrations, features, and technologies that will take your team to the next level.
+pricing-note-1: CrateKube is free and open source. You only pay for infrastructure from your provider.
+support-note: Need help with CrateKube? Interested in contributing?
 ---
 
 <section id="offerings">
@@ -11,9 +18,9 @@ active: home
       <div class="col-md-6">
         <h1 class="sectionHead">OFFERINGS</h1>
         <p>
-          Overview into Summary. Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Fuga unde provident, nemo sunt dolorem inventore
-          quam ratione iusto officiis.
+          {{page.offerings-note}}&nbsp;<a href="offerings.html"
+            ><span class="link"><i>Learn more</i></span></a
+          >
         </p>
 
         <div class="row mt-5">
@@ -65,11 +72,11 @@ active: home
       <div class="col-md-6">
         <h1 class="sectionHead">Features</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-          corporis quos placeat esse explicabo nihil consequuntur a veniam in
-          odio eaque animi sequi, adipisci quia iste harum. Laborum, natus id!
-          You can
-          <span class="link"><i>view off features </i></span>here.
+          {{page.features-note}}&nbsp;<a href="features.html"
+            ><span class="link"
+              ><i>Learn more about our powerful features</i></span
+            ></a
+          >
         </p>
       </div>
       <div class="col-md-6 text-center">IMAGE/GRAPHIC</div>
@@ -84,17 +91,16 @@ active: home
       <div class="col-md-6">
         <h1 class="sectionHead">Pricing</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-          corporis quos placeat esse explicabo nihil consequuntur a veniam in
-          odio eaque animi sequi, adipisci quia iste harum. Laborum, natus id!
-          You can.
+          {{page.pricing-note-1}}&nbsp;<a href="pricing.html"
+            ><span class="link"><i>Learn how we can help you save</i></span></a
+          >
         </p>
-        <p>
+        <!-- <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
           earum hic debitis beatae. Vitae perspiciatis hic consequuntur delectus
           odit recusandae, nisi, harum error sunt sapiente dolorum repudiandae
           sit autem repellendus.
-        </p>
+        </p> -->
       </div>
     </div>
   </div>
@@ -106,12 +112,10 @@ active: home
       <div class="col-md-8 offset-md-2 text-center">
         <h1 class="sectionHead">Support</h1>
         <p class="mt-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          vero magni repellendus magnam neque eligendi nisi, at laudantium sequi
-          illum sit cupiditate consequatur eum eius nihil ea repudiandae
-          doloribus nemo.
+          {{page.support-note}}
         </p>
         <button
+          onclick="window.location.href='/support.html'"
           class="btn btn-primary getStartedButton contactButton pl-3 pr-3 pt-2 pb-2 mt-4"
         >
           Contact Us

@@ -2,6 +2,14 @@
 layout: default
 title: Offerings
 active: offerings
+
+offerings-note: CrateKube's offerings scale to fulfill the use case of everyone from platform operators to cloud application developers.
+offerings-1-head: Platform Operation
+offerings-1-body: Leverage the power of containers while maintaining control of your deployment. CrateKube's platform can be deployed and configured to fit your operating needs.
+offerings-2-head: Components
+offerings-2-body: Expand the power of your existing Kubernetes deployment using our components. Each component can be used independently or mixed and matched to cater to your custom needs.
+offerings-3-head: Automanaged
+offerings-3-body: Achieve the power of the platform without the headache of managing it. Run CrateKube on your infrastructure with our no-ops solution.
 ---
 
 <section id="overviewOffering">
@@ -11,29 +19,26 @@ active: offerings
         <div class="w-75 mx-auto text-center">
           <h2>OVERVIEW</h2>
           <p class="pt-2">
-            Overview Intro Summary. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Maecenas ut turpis mauris. Duis porta posuere
-            lectus sed sodales. Nam sit amet condimentum sapien. Maecenas ut
-            turpis mauris. Duis porta posuere lectus sed sodales. Nam sit amet
-            sapien.
+            {{page.offerings-note}}
           </p>
-          <p class="pt-2">
+          <!-- <p class="pt-2">
             Maecenas ac lacinia mauris. Donec ultrices metus accumsan orci
             sollicitudin ullamcorper. Etiam dolor tellus, porta non facilisis
             ut, maximus et lectus. Vivamus dapibus facilisis aliquet. Nam magna
             tortor, eleifend ultricies volutpat sollicitudin, aliquam a nisi.
-          </p>
+          </p> -->
           <div class="row">
-            <div class="col-md-6 pb-4">
+            <!-- <div class="col-md-6 pb-4">
               <button
                 class="btn btn-primary caseButton offeringWidth mt-4 float-right"
               >
                 SLAS
               </button>
-            </div>
-            <div class="col-md-6 pb-4">
+            </div> -->
+            <div class="pb-4 col-md-12">
               <button
-                class="btn btn-primary caseButton offeringWidth mt-4 float-left"
+                onclick="window.location.href='/pricing.html'"
+                class="btn btn-primary caseButton offeringWidth mt-4"
               >
                 View Pricing
               </button>
@@ -49,21 +54,22 @@ active: offerings
   <div class="container">
     <div class="row mt-5">
       <div class="col-md-4">
-        <div class="py-md-5 text-center my-auto">
-          <h2 class="font-weight-bold">STANDARD</h2>
-          <p class="w-50 mx-auto">
+        <div class="pt-md-5 text-center">
+          <h2 class="font-weight-bold text-uppercase">
+            {{page.offerings-1-head}}
+          </h2>
+          <!-- <p class="w-50 mx-auto">
             Lorem ipsum dolor sit amet, consectetur.
-          </p>
-        </div>
-        <div class="text-center">
-          <p>
-            Donec ultrices metus accumsan orci sollicitudin ullamcorper. Etiam
-            dolor tellus, porta non facilisis ut, maximus et lectus. Vivamus
-            dapibus facilisis aliquet.
-          </p>
+          </p> -->
         </div>
         <hr style="border: 1px solid#000000;" />
-        <div class="text-center pt-3">
+        <div class="py-md-3 text-center">
+          <p>
+            {{page.offerings-1-body}}
+          </p>
+        </div>
+
+        <!-- <div class="text-center pt-3">
           <h4>FEATURES</h4>
           <ul class="list">
             <li>Donec ultrices metus</li>
@@ -75,24 +81,25 @@ active: offerings
             <li>Vivamus dapibus</li>
             <li>Vivamus dapibus</li>
           </ul>
-        </div>
+        </div> -->
       </div>
       <div class="col-md-4">
-        <div class="py-md-5 text-center my-auto">
-          <h2 class="font-weight-bold">DEDICATED</h2>
-          <p class="w-50 mx-auto">
+        <div class="pt-md-5 text-center">
+          <h2 class="font-weight-bold text-uppercase">
+            {{page.offerings-2-head}}
+          </h2>
+          <!-- <p class="w-50 mx-auto">
             Lorem ipsum dolor sit amet, consectetur.
-          </p>
-        </div>
-        <div class="text-center">
-          <p>
-            Donec ultrices metus accumsan orci sollicitudin ullamcorper. Etiam
-            dolor tellus, porta non facilisis ut, maximus et lectus. Vivamus
-            dapibus facilisis aliquet.
-          </p>
+          </p> -->
         </div>
         <hr style="border: 1px solid#000000;" />
-        <div class="text-center pt-3">
+        <div class="py-md-3 text-center">
+          <p>
+            {{page.offerings-2-body}}
+          </p>
+        </div>
+
+        <!-- <div class="text-center pt-3">
           <h4>FEATURES</h4>
           <ul class="list">
             <li>Donec ultrices metus</li>
@@ -104,23 +111,22 @@ active: offerings
             <li>Vivamus dapibus</li>
             <li>Vivamus dapibus</li>
           </ul>
-        </div>
+        </div> -->
       </div>
       <div class="col-md-4">
-        <div class="py-md-5 text-center my-auto">
-          <h2 class="font-weight-bold">HYBRID CLOUD</h2>
-          <p class="w-50 mx-auto">
+        <div class="pt-md-5 text-center">
+          <h2 class="font-weight-bold text-uppercase">
+            {{page.offerings-3-head}}
+          </h2>
+          <!-- <p class="w-50 mx-auto">
             Lorem ipsum dolor sit amet, consectetur.
-          </p>
-        </div>
-        <div class="text-center">
-          <p>
-            Donec ultrices metus accumsan orci sollicitudin ullamcorper. Etiam
-            dolor tellus, porta non facilisis ut, maximus et lectus. Vivamus
-            dapibus facilisis aliquet.
-          </p>
+          </p> -->
         </div>
         <hr style="border: 1px solid#000000;" />
+        <div class="py-md-3 text-center">
+          <p>{{page.offerings-3-body}}</p>
+        </div>
+        <!-- <hr style="border: 1px solid#000000;" />
         <div class="text-center pt-3">
           <h4>FEATURES</h4>
           <ul class="list">
@@ -133,7 +139,7 @@ active: offerings
             <li>Vivamus dapibus</li>
             <li>Vivamus dapibus</li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

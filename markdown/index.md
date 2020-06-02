@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+active: home
+---
+
 # Welcome to CrateKube!
 
 Expand the possibilities of DevOps with CrateKube, an open source Kubernetes platform built with a no-ops mentality. Kubernetes simplifies container management, and we simplify Kubernetes management.

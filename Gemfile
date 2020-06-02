@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem 'jekyll-redirect-from'
-
+gem "activesupport", ">= 6.0.3.1"
 gem "jekyll", "~> 3.8.5"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
